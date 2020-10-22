@@ -2,6 +2,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>de.vitroconnect.spring</groupId>
+        <artifactId>vc-platform-spring-boot-starter-parent</artifactId>
+        <version>0.9.4</version>
+        <relativePath />
+        <!-- lookup parent from repository -->
+    </parent>
+
     <groupId>anliksim</groupId>
     <artifactId>bom-example-project</artifactId>
     <packaging>pom</packaging>
@@ -85,9 +93,9 @@
     </developers>
 
     <scm>
-        <url>https://github.com/anliksim/maven-template-bom</url>
-        <connection>scm:git:git@github.com:anliksim/maven-template-bom.git</connection>
-        <developerConnection>scm:git:git@github.com:anliksim/maven-template-bom.git</developerConnection>
+        <url>https://github.com/cachescrubber/maven-template-bom</url>
+        <connection>scm:git:git@github.com:cachescrubber/maven-template-bom.git</connection>
+        <developerConnection>scm:git:git@github.com:cachescrubber/maven-template-bom.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
